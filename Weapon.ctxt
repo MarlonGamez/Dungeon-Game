@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=n\ dL\ dH\ v
+comment0.target=Weapon(java.lang.String,\ int,\ int,\ int)
+comment0.text=\r\n\ The\ constructor\ method\ for\ Weapons\ takes\ in\ 4\ parameters\:\ n,\ dL,\ dH,\ v\ and\ assigns\ them\ to\ values\ \r\n\ in\ the\ weapon\r\n\ @param\ n\:\ used\ to\ be\ assigned\ to\ the\ name\ of\ the\ weapon\r\n\ @param\ dL\:\ used\ to\ be\ assigned\ to\ damageLow.\ This\ will\ be\ the\ bottom\ of\ the\ range\ of\ damages\ possible\ to\ be\ dealt\r\n\ @param\ dH\:\ used\ to\ be\ assigned\ to\ damageHigh.\ This\ will\ be\ the\ top\ of\ the\ range\ of\ damages\ possible\ to\ be\ dealt\r\n\ @param\ v\:\ used\ to\ be\ assigned\ to\ the\ value\ of\ the\ weapon.\ This\ will\ be\ how\ much\ it\ is\ bought\ and\ sold\ for.\r\n
+comment1.params=
+comment1.target=java.lang.String\ getType()
+comment2.params=
+comment2.target=int\ getDamageLow()
+comment3.params=
+comment3.target=int\ getDamageHigh()
+comment4.params=
+comment4.target=int\ getDamage()
+comment5.params=
+comment5.target=int\ getHG()
+comment6.params=user
+comment6.target=void\ effect(Player)
+comment6.text=\r\n\ The\ effect\ method\ is\ not\ used\ for\ anything\ within\ the\ item\ class\r\n
+numComments=7

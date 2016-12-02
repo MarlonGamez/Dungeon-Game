@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=n\ mH\ ATKL\ ATKH\ g
+comment0.target=Enemy(java.lang.String,\ int,\ int,\ int,\ int)
+comment0.text=\r\n\ The\ Enemy\ constructor\ takes\ in\ 5\ parameters\ to\ be\ assigned\ to\ various\ things\ in\ the\ enemy.\ These\ 5\ values\ are\ name,\ maxHealth,\ ATKLow,\ ATKHigh,\ and\ gold.\r\n\ @param\ n\:\ This\ string\ that\ is\ taken\ in\ is\ then\ assigned\ to\ the\ name\ value\r\n\ @param\ mH\:\ This\ integer\ is\ assigned\ to\ the\ maxHealth\ value,\ and\ that\ value\ is\ also\ assigned\ to\ the\ health\ value,\ as\ they\ will\ always\ start\ with\ max\ health\r\n\ @param\ ATKL\:\ This\ integer\ is\ the\ lowest\ value\ in\ the\ range\ of\ values\ that\ represent\ the\ amount\ of\ damage\ that\ the\ monster\ can\ deal\r\n\ @param\ ATKH\:\ This\ integer\ is\ the\ highest\ value\ in\ the\ range\ of\ values\ that\ represent\ the\ amount\ of\ damage\ that\ the\ monster\ can\ deal\r\n\ @param\ g\:\ This\ integer\ is\ assigned\ to\ gold\ and\ represents\ the\ amount\ of\ the\ gold\ that\ the\ player\ will\ receive\ when\ they\ kill\ the\ monster.\r\n
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment2.params=
+comment2.target=int\ getHP()
+comment3.params=newHP
+comment3.target=void\ setHP(int)
+comment4.params=target
+comment4.target=void\ Attack(Encounter)
+comment4.text=\r\n\ A\ random\ number\ is\ generated\ within\ the\ range\ of\ the\ low\ and\ high\ damage\ of\ the\ enemy.\ This\ damage\ is\ taken\r\n\ and\ is\ subtracted\ from\ the\ health\ of\ the\ target\ using\ the\ setHP\ method.\ A\ message\ is\ then\ printed\ saying\ how\ much\ damage\ was\ dealt\r\n\ @param\ target\:\ The\ target\ paramater\ is\ used\ to\ show\ who\ the\ damage\ is\ being\ dealth\ to.\ Both\ of\ the\ objects\ will\ be\ in\ an\ array\ when\ this\ is\ done\ so\ that\ they\ can\ be\ processed\ polymorphically.\r\n
+comment5.params=
+comment5.target=int\ getGold()
+comment6.params=x
+comment6.target=void\ setGold(Encounter)
+numComments=7

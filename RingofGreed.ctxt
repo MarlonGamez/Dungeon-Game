@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=n\ v
+comment0.target=RingofGreed(java.lang.String,\ int)
+comment0.text=\r\n\ The\ constructor\ method\ of\ the\ RingofGreed\ item\ object\ only\ takes\ in\ a\ name\ and\ value,\ as\ those\ are\ the\ only\ important\r\n\ variables\ needed.\ The\ most\ important\ process\ for\ the\ rings\ is\ the\ effect()\ method.\r\n\ @param\ n\ is\ the\ variable\ that\ will\ be\ used\ for\ the\ name\r\n\ @param\ v\ is\ the\ variable\ that\ will\ be\ used\ for\ the\ value\r\n
+comment1.params=user
+comment1.target=void\ effect(Player)
+comment1.text=\r\n\ The\ effect\ method\ is\ used\ in\ the\ RingofGreed\ class\ to\ change\ the\ amount\ of\ gold\ that\ the\ user\ gains\ from\ figthing.\r\n\ Allows\ the\ user\ to\ gain\ 15\ more\ gold\ each\ time.\r\n\ @param\ user\ calls\ the\ user\ object\ to\ change\ his\ GoldBNS\ to\ 15\r\n
+comment2.params=
+comment2.target=java.lang.String\ getType()
+comment3.params=
+comment3.target=int\ getDamage()
+comment4.params=
+comment4.target=int\ getDamageHigh()
+comment5.params=
+comment5.target=int\ getDamageLow()
+comment6.params=
+comment6.target=int\ getHG()
+numComments=7

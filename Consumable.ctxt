@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=n\ hG\ v
+comment0.target=Consumable(java.lang.String,\ int,\ int)
+comment0.text=\r\n\ The\ contructor\ Consumable\ takes\ in\ 3\ parameters\:\ n,\ hG,\ and\ v\ to\ be\ assigned\ to\ name,\ healthGain,\ and\ value\r\n\ @param\ n\:\ used\ to\ be\ assigned\ the\ name\ of\ the\ object\ \ \r\n\ @param\ hG\:\ used\ to\ be\ assigned\ to\ the\ healthGain\ of\ the\ object.\ This\ is\ how\ much\ health\ is\ given\ back\ to\ the\ player\ when\ used\r\n\ @param\ v\:\ used\ to\ be\ assigned\ to\ the\ value\ of\ the\ object.\ This\ is\ how\ much\ it\ can\ be\ bought\ and\ sold\ for.\r\n
+comment1.params=
+comment1.target=java.lang.String\ getType()
+comment2.params=
+comment2.target=int\ getDamage()
+comment3.params=
+comment3.target=int\ getHG()
+comment4.params=
+comment4.target=int\ getDamageHigh()
+comment5.params=
+comment5.target=int\ getDamageLow()
+comment6.params=user
+comment6.target=void\ effect(Player)
+comment6.text=\r\n\ The\ effect\ method\ is\ not\ used\ for\ anything\ within\ the\ item\ class\r\n
+numComments=7
